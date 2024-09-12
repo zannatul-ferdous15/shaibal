@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify user login",
+        "description": "",
+        "id": "this-feature-is-for-verify-login-activity;verify-user-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2074159500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open onlineshop \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 17
+                }
+              ],
+              "location": "UserRegister.open_onlineshop_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2893417800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click account link",
+            "match": {
+              "location": "UserRegister.click_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1380744000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter user name and password and Click login button",
+            "match": {
+              "location": "UserLogin.enter_user_name_and_password_and_Click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52257400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify login successfully",
+            "match": {
+              "location": "UserLogin.verify_login_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1849469700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click logout button",
+            "match": {
+              "location": "UserLogin.click_logout_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for verify login activity",
+    "description": "",
+    "id": "this-feature-is-for-verify-login-activity",
+    "keyword": "Feature",
+    "uri": "UserLogin.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user register",
+        "description": "",
+        "id": "this-feature-is-for-register-activity;verify-user-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 124261900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open onlineshop \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 17
+                }
+              ],
+              "location": "UserRegister.open_onlineshop_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 965071900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click account link",
+            "match": {
+              "location": "UserRegister.click_account_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1256253800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter user name and email and password and Click register button",
+            "match": {
+              "location": "UserRegister.enter_user_name_and_email_and_password_and_Click_register_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39317700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify register successfully",
+            "match": {
+              "location": "UserRegister.verify_register_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@sign"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is for register activity",
+    "description": "",
+    "id": "this-feature-is-for-register-activity",
+    "keyword": "Feature",
+    "uri": "UserRegister.feature"
+  }
+]
